@@ -14,7 +14,7 @@ export default function Landingpage() {
   return (
 
 
-    <div className=' relative'>
+    <div className=' relative '>
     <div className=''>
 
       {/* <Nav /> */}
@@ -55,7 +55,7 @@ export default function Landingpage() {
 
         {/* <!-- Right --> */}
         {/* <div class="py-16"> */}
-        <div className=" md:w-1/2 mt-[151px]">
+        <div className=" md:w-1/2 mt-[320px] md:mt-[151px]">
           <div className="flex flex-col items-start text-left mb-6  md:mb-3   mr-0 sm:mr-[100px]  ">
               <p className=" text-[#EEEEEE] font-[Poppins] font-medium text-[18px] leading-[27px] px-3 md:px-0 tracking-[4%] ">Hello there, Nice to meet you. I am.</p>
               <h1 className=" text-[#00ADB5] font-[Montserrat]  font-extrabold px-3 md:px-0 text-[50px] md:text-[100px] leading-[121.9px]  tracking-[6%]">Jessie</h1>
@@ -79,7 +79,7 @@ export default function Landingpage() {
             <img src={elipseImage} alt="" className='pb-14' />
           </div>
 
-          <p className="text-[#00ADB5] font-[Montserrat] font-extrabold text-[24px] leading-[30px] tracking-[0.04em]">Pro <br /> photographer</p>
+          <p className="text-[#00ADB5] font-[Montserrat] font-extrabold text-[24px] leading-[30px] tracking-[0.04em]  md:max-w-[200px]">Pro <br/> photographer</p>
         </div>
 
 

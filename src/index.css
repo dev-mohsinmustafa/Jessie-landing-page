@@ -14,3 +14,7 @@ body{
 .slick-next:before {
     display: none !important;
 }
+
+.slick-active{
+    display: none !important;
+}

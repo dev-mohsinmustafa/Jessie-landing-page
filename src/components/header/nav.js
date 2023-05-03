@@ -19,7 +19,7 @@ const Nav = () => {
 
         <a href="#"> <img src={logo} alt="" className=" font-bold font-[Josefin Sans] 
           text-[24px] leading-[24px] whitespace-nowrap dark:text-white text-[#EEEEEE] 
-         ml-1 md:ml-0 lg:ml-5 xl:ml-0 2xl:ml-10  hover:text-[#FCE611]  " /></a>
+         ml-1 md:ml-0 lg:ml-5 xl:ml-0 2xl:ml-20  hover:text-[#FCE611]  " /></a>
 
         <div className="flex md:order-2">
           <button type="button" className="focus:ring-4 focus:outline-none focus:ring-blue-300  rounded-[3px]
@@ -42,24 +42,24 @@ const Nav = () => {
 
 
 
-          <ul class="flex flex-col p-4 mt-4 border border-gray-100 rounded-lg bg-black md:flex-row md:space-x-9 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-[#1F2022]  dark:border-gray-700">
+          <ul className="flex flex-col p-4 mt-4 border border-gray-100 rounded-lg bg-black md:flex-row md:space-x-9 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-[#1F2022]  dark:border-gray-700">
             <li>
-              <a href="#" class="block py-2 pl-3 pr-4   rounded md:bg-transparent md:p-0 dark:text-white 
+              <a href="#" className="block py-2 pl-3 pr-4   rounded md:bg-transparent md:p-0 dark:text-white 
               hover:text-[#FCE611] text-[#00ADB5] font-bold font-JosefinSans
               text-[18px] leading-[18px]" aria-current="page">Portfolio</a>
             </li>
             <li>
-              <a href="#" class="block py-2 pl-3 pr-4 rounded hover:bg-gray-100 md:hover:bg-transparent  md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700 hover:text-[#FCE611] text-[#EEEEEE]
+              <a href="#" className="block py-2 pl-3 pr-4 rounded hover:bg-gray-100 md:hover:bg-transparent  md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700 hover:text-[#FCE611] text-[#EEEEEE]
               font-bold font-JosefinSans 
               text-[18px] leading-[18px]">Blog</a>
             </li>
             <li>
-              <a href="#" class="block py-2 pl-3 pr-4 rounded hover:bg-gray-100 md:hover:bg-transparent  md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700 hover:text-[#FCE611] text-[#EEEEEE] 
+              <a href="#" className="block py-2 pl-3 pr-4 rounded hover:bg-gray-100 md:hover:bg-transparent  md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700 hover:text-[#FCE611] text-[#EEEEEE] 
               font-bold font-JosefinSans 
               text-[18px] leading-[18px]">Client reviews</a>
             </li>
             <li>
-              <a href="#" class="block py-2 pl-3 pr-4  rounded hover:bg-gray-100 md:hover:bg-transparent md:p-0  md:dark:hover:bg-transparent dark:border-gray-700 hover:text-[#FCE611] text-[#EEEEEE]
+              <a href="#" className="block py-2 pl-3 pr-4  rounded hover:bg-gray-100 md:hover:bg-transparent md:p-0  md:dark:hover:bg-transparent dark:border-gray-700 hover:text-[#FCE611] text-[#EEEEEE]
               font-bold font-JosefinSans
               text-[18px] leading-[18px] ">Contact me</a>
             </li>
