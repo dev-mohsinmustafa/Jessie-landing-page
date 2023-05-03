@@ -19,13 +19,13 @@ const Nav = () => {
 
         <a href="#"> <img src={logo} alt="" className=" font-bold font-[Josefin Sans] 
           text-[24px] leading-[24px] whitespace-nowrap dark:text-white text-[#EEEEEE] 
-          md:ml-10  hover:text-[#FCE611]  " /></a>
+         ml-1 md:ml-0 lg:ml-5 xl:ml-0 2xl:ml-10  hover:text-[#FCE611]  " /></a>
 
         <div className="flex md:order-2">
           <button type="button" className="focus:ring-4 focus:outline-none focus:ring-blue-300  rounded-[3px]
           font-bold font-[Josefin Sans]
           text-[18px] leading-[18px]
-           p-4  text-center mr-3 md:mr-[80px] bg-[#EEEEEE] hover:bg-yellow-300  hidden lg:block">Schedule a call</button>
+           p-4  text-center 2xl:mr-3  bg-[#EEEEEE] hover:bg-yellow-300  hidden lg:block">Schedule a call</button>
 
 
           <button onClick={() => setOpen((prev) => !prev)} data-collapse-toggle="navbar-cta" type="button" className="inline-flex items-center p-2 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-cta" aria-expanded="false">
